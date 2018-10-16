@@ -1,9 +1,11 @@
+
 <body bgcolor="#E0FFFF">
+<div id ="wholepage">
 <hr style="height:1px; border-top:1px solid #00BFFF;" />
 <h1 align="CENTER"> My personal page</h1>
 <hr style="height:1px; border-top:1px solid #00BFFF;" /><!--<hr align="LEFT" size="7" />-->
 <!-- IMAGE SHOULD BE ADDED HERE -->
-
+<div class="vl" ></div>
 <img src="d.jpg " align="left" WIDTH = 270>
 
 <p align="CENTER">Currently studying at: <a href="http://www.cs.uoi.gr/index.php?menu=m1" target="UOI"> <img src="CSE-UOI-LOGO-EN.jpg " align="middle" WIDTH = 150> </a></p>
@@ -35,16 +37,18 @@ Email me at <a href="MAILTO:christoph.karv@yahoo.gr" target="MAILTO:christoph.ka
 
 <BR>
 
+</div>
+</body>
 
-
-
-
-
-
-<BR>
 
 
 <style>
+#wholepage{
+	width: 2048px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 p1{
 	float:left;
 }
@@ -54,8 +58,8 @@ div.absolute {
     top 700px;
 }
 hr1 { 
-	
     display: block;
+	position:relative;
     margin-top: 1px;
     margin-bottom: 1px;
     margin-left: 16%;
@@ -64,6 +68,8 @@ hr1 {
     border-width: 1px;
 	
 }
+
+
 h  {
     text-indent: 30px;
     float:left;
@@ -94,14 +100,17 @@ LI {
 }
 
 .vl {
-	height:1024px; width:10px;
+    float: left;
+	height:1024px; 
+	width:10px;
+	position:relative;
+	border-left:200px;
 	background:#00BFFF;
-    height: 1024px;
-    position: absolute;
-    left: 15%;
-    margin-left: -3px;
+    left: 285px;
+	margin-left: auto;
+	margin-right: auto;
     top: 10%;
 }
 </style>
-<div class="vl"></div>
+
 </body>
